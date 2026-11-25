@@ -1,0 +1,16 @@
+{
+  "name": "claude-code-burn-watch",
+  "version": "0.1.0",
+  "description": "A Discord ping when one Claude Code session suddenly burns tokens or launches a fork. Reads local transcripts; no API calls, no dependencies.",
+  "main": "burn-watch.js",
+  "bin": { "claude-code-burn-watch": "./burn-watch.js" },
+  "scripts": {
+    "test": "node test.js",
+    "report": "node burn-watch.js --report"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["claude-code", "usage", "tokens", "monitor", "alert", "discord", "fork", "rate-limit"],
+  "author": "TEAM ROCK",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/katekyorock-ux/claude-code-burn-watch" }
+}
